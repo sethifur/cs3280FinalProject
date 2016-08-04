@@ -2,9 +2,10 @@ using System;
 using System.Collections.Generic;
 using Caliburn.Micro;
 using cs3280FinalProject.ViewModels;
-using cs3280FinalProject.InventoryData;
-using cs3280FinalProject.InventoryDataInteraction;
-using Common.Interfaces;
+using InventoryData;
+using InventoryDataInteraction;
+using System.Data.Common.Interfaces;
+
 
 namespace cs3280FinalProject
 {
