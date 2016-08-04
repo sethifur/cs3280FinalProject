@@ -1,1 +1,6 @@
-c:\users\sethalumps\documents\visual studio 2015\Projects\cs3280FinalProject\cs3280FinalProject\bin\Debug\cs3280FinalProject.exe.config
+C:\Users\sethalumps\Documents\Visual Studio 2015\Projects\cs3280FinalProject\cs3280FinalProject\obj\Debug\InventoryData.g.cs
+C:\Users\sethalumps\Documents\Visual Studio 2015\Projects\cs3280FinalProject\cs3280FinalProject\obj\Debug\InventoryDataInteraction.g.cs
+C:\Users\sethalumps\Documents\Visual Studio 2015\Projects\cs3280FinalProject\cs3280FinalProject\obj\Debug\MainWindow.g.cs
+C:\Users\sethalumps\Documents\Visual Studio 2015\Projects\cs3280FinalProject\cs3280FinalProject\obj\Debug\App.g.cs
+C:\Users\sethalumps\Documents\Visual Studio 2015\Projects\cs3280FinalProject\cs3280FinalProject\obj\Debug\cs3280FinalProject_MarkupCompile.cache
+C:\Users\sethalumps\Documents\Visual Studio 2015\Projects\cs3280FinalProject\cs3280FinalProject\obj\Debug\cs3280FinalProject_MarkupCompile.lref
