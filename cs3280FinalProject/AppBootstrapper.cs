@@ -6,7 +6,7 @@ namespace cs3280FinalProject
 	using cs3280FinalProject.ViewModels;
 	using InventoryData;
 	using InventoryDataInteraction;
-	using Common.Interfaces;
+
 
 	public class AppBootstrapper : BootstrapperBase
 	{
