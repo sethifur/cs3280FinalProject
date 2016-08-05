@@ -4,8 +4,7 @@ using Caliburn.Micro;
 using cs3280FinalProject.ViewModels;
 using InventoryData;
 using InventoryDataInteraction;
-using System.Data.Common.Interfaces;
-
+using Common.Interfaces;
 
 namespace cs3280FinalProject
 {
@@ -33,7 +32,7 @@ namespace cs3280FinalProject
        		container.PerRequest<InventoryViewModel>();
        		container.PerRequest<NewOrderViewModel>();
        		container.PerRequest<OrdersViewModel>();
-   
+            
        		container.Singleton<IInventoryData, DatabaseInteraction>();
        	}
    
