@@ -71,6 +71,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Commands\NewOrderUpdateCommand.cs" />
     <Compile Include="Views\NewOrdersView.xaml.cs">
       <DependentUpon>NewOrdersView.xaml</DependentUpon>
     </Compile>

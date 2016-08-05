@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\sethalumps\Documents\Visual Studio 2015\Projects\cs3280FinalProject\cs3280FinalProject\App.xaml
-2-864911162
+41227511374
 
-161627580021
+191214053557
 71905831117
-Views\MainWindow.xaml;Views\NewOrdersView.xaml;
+Views\InventoryView.xaml;Views\MainWindow.xaml;Views\NewOrdersView.xaml;Views\OrderView.xaml;
 
-False
+True
 

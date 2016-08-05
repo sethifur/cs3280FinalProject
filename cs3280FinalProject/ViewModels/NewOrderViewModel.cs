@@ -28,7 +28,15 @@ namespace cs3280FinalProject.ViewModels
 
         public NewOrderViewModel() {
             _newOrder = new NewOrder();
+            UpdateCommand = new NewOrderUpdateCommand();
         }
+
+        public ICommand UpdateCommand()
+        {
+            get;
+            private set;
+        }
+
         public void SaveChanges()
         {
             Debug.Assert(false, string.Format("{0} was Updated", _newOrder.purchaserName));

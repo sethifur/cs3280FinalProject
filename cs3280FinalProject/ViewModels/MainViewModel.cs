@@ -22,7 +22,7 @@ namespace cs3280FinalProject.ViewModels
 
         public void Orders()
         {
-            //var ordersVM = IoC.Get<OrdersViewModel>();
+            //EnvironmentVariableTarget;
             //ActivateItem(ordersVM);
         }
     }
