@@ -1,32 +1,37 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using cs3280FinalProject.Models;
+using System.Diagnostics;
 
 namespace cs3280FinalProject.ViewModels
 {
     class NewOrderViewModel
     {
-        private string orderNumber;
-        private DateTime createDate = new DateTime();
-        private string purchaserName;
-        private List<Object> orderItems;
-
-        public void setCreateDate(DateTime value){createDate = value;}
-
-        public DateTime getCreateDate(){ return createDate;}
-
-        public void setPurchaserName(string value) { purchaserName = value; }
-
-        public string getPurchaserName() { return purchaserName; }
-
-
+        private NewOrder newOrder;
+        public NewOrder _newOrder
+        {
+            get
+            {
+                return newOrder;
+            }
+            set
+            {
+                newOrder = value;
+            }
+        }
 
         public NewOrderViewModel() {
-
+            _newOrder = new NewOrder();
+        }
+        public void SaveChanges()
+        {
+            Debug.Assert(false, string.Format("{0} was Updated", _newOrder.purchaserName));
         }
     }
 }

@@ -1,0 +1,16 @@
+﻿<Window x:Class="cs3280FinalProject.Views.NewOrdersView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cs3280FinalProject.Views"
+        mc:Ignorable="d"
+        Title="NewOrdersView" Height="300" Width="300">
+    <Grid>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" VerticalAlignment="Top" Height="160" Width="292"/>
+        <Button x:Name="button" Content="Orders" HorizontalAlignment="Left" Margin="0,160,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="button1" Content="Inventory" HorizontalAlignment="Left" Margin="100,160,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="button2" Content="New Orders" HorizontalAlignment="Left" Margin="193,160,0,0" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Window>
