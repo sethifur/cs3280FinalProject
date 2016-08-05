@@ -7,44 +7,7 @@
         mc:Ignorable="d"
         Title="NewOrdersView" Height="300" Width="392.667">
     <Grid>
-        <DataGrid Name="dgUsers" AutoGenerateColumns="False">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="Order Number" Binding="{Binding NewOrder.orderNumber}" />
-                <DataGridTextColumn Header="Perchacer" Binding="{Binding NewOrder.perchaserName}" />
-                <DataGridTextColumn Header="Date Placed" Binding="{Binding NewOrder.createDate}" />
-                <DataGridTextColumn Header="Cost" Binding="{Binding newOrder.cost}" />
-            </DataGrid.Columns>
-            <DataGrid.RowDetailsTemplate>
-                <DataTemplate>
-                    <DockPanel Background="GhostWhite">
-                        <Grid Margin="0,10">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto" />
-                                <ColumnDefinition Width="*" />
-                            </Grid.ColumnDefinitions>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto" />
-                                <RowDefinition Height="Auto" />
-                                <RowDefinition Height="Auto" />
-                            </Grid.RowDefinitions>
 
-                            <TextBlock Text="Order Number: " FontWeight="Bold" />
-                            <TextBlock Text="{Binding NewOrder.orderNumber}" Grid.Column="1" IsEnabled="False" />
-                            <TextBlock Text="Purchaser: " FontWeight="Bold" Grid.Row="1" />
-                            <TextBlock Text="{Binding NewOrder.perchaserName}" Grid.Column="1" Grid.Row="1" />
-                            <TextBlock Text="Date Placed: " FontWeight="Bold" Grid.Row="2" />
-                            <TextBlock Text="{Binding NewOrder.createDate}" Grid.Column="1" Grid.Row="2" />
-                            <TextBlock Text="Cost: " FontWeight="Bold" Grid.Row="2" />
-                            <TextBlock Text="{Binding NewOrder.cost}" Grid.Column="1" Grid.Row="2" />
-
-                        </Grid>
-                    </DockPanel>
-                </DataTemplate>
-            </DataGrid.RowDetailsTemplate>
-            </DataGrid>
-            <Button x:Name="button" Content="Orders" HorizontalAlignment="Left" Margin="31,160,0,0" VerticalAlignment="Top" Width="100"/>
-        <Button x:Name="button1" Content="Inventory" HorizontalAlignment="Left" Margin="136,160,0,0" VerticalAlignment="Top" Width="100"/>
-        <Button x:Name="button2" Content="New Orders" HorizontalAlignment="Left" Margin="241,160,0,0" VerticalAlignment="Top" Width="100"/>
-
+            
     </Grid>
 </Window>
