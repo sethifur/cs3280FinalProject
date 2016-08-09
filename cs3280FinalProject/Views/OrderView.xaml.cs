@@ -11,17 +11,19 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using cs3280FinalProject.ViewModels;
 
 namespace cs3280FinalProject.Views
 {
     /// <summary>
     /// Interaction logic for OrderView.xaml
     /// </summary>
-    public partial class OrderView : Window
+    public partial class OrderView : UserControl
     {
         public OrderView()
         {
             InitializeComponent();
+            DataContext = new OrdersViewModel();
         }
     }
 }

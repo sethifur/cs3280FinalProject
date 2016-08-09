@@ -12,18 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using cs3280FinalProject.ViewModels;
-
+using Caliburn.Micro;
 namespace cs3280FinalProject.Views
 {
     /// <summary>
     /// Interaction logic for NewOrdersView.xaml
     /// </summary>
-    public partial class NewOrdersView : Window
+    public partial class NewOrdersView : UserControl
     {
         public NewOrdersView()
         {
             InitializeComponent();
-            DataContext = new NewOrderViewModel();
         }
 
       

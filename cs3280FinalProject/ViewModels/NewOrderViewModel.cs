@@ -8,10 +8,11 @@ using System.Windows;
 using System.Windows.Controls;
 using cs3280FinalProject.Models;
 using System.Diagnostics;
+using Caliburn.Micro;
 
 namespace cs3280FinalProject.ViewModels
 {
-    class NewOrderViewModel
+    class NewOrderViewModel : Screen
     {
         private NewOrder newOrder;
         public NewOrder _newOrder
@@ -28,14 +29,14 @@ namespace cs3280FinalProject.ViewModels
 
         public NewOrderViewModel() {
             _newOrder = new NewOrder();
-            UpdateCommand = new NewOrderUpdateCommand();
+            //UpdateCommand = new NewOrderUpdateCommand();
         }
 
-        public ICommand UpdateCommand()
-        {
-            get;
-            private set;
-        }
+       // public ICommand UpdateCommand()
+       // {
+           // get;
+            //private set;
+       // }
 
         public void SaveChanges()
         {

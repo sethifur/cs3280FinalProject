@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Caliburn.Micro;
+using cs3280FinalProject.Views;
+using InventoryData;
 
 namespace cs3280FinalProject.ViewModels
 {
@@ -11,7 +13,8 @@ namespace cs3280FinalProject.ViewModels
     {
         public MainViewModel()
         {
-            this.DisplayName = "Inventory Application";
+            this.DisplayName = "";
+            Orders();
         }
 
         protected override void OnActivate()
@@ -22,8 +25,9 @@ namespace cs3280FinalProject.ViewModels
 
         public void Orders()
         {
-            //EnvironmentVariableTarget;
+            //var ordersVM = IoC.Get<OrdersViewModel>();
             //ActivateItem(ordersVM);
+            ActivateItem(new OrdersViewModel());
         }
     }
 }

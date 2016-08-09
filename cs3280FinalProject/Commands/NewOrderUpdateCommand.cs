@@ -8,7 +8,7 @@ using System.Windows.Input;
 
 namespace cs3280FinalProject.Commands
 {
-    class NewOrderUpdateCommand : ICommand
+    class NewOrderUpdateCommand// : ICommand
     {
         public NewOrderUpdateCommand(NewOrderViewModel viewModel)
         {
@@ -27,10 +27,10 @@ namespace cs3280FinalProject.Commands
             remove { CommandManager.RequerySuggested -= value; }
         }
 
-        public bool CanExecute(Object parameter)
-        {
-            return _viewModel.CanUpdate;
-        }
+        //public bool CanExecute(Object parameter)
+        //{
+        //    return _viewModel.CanUpdate;
+        //}
 
         public void Execute(Object parameter)
         {

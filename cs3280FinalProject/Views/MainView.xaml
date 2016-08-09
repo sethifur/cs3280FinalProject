@@ -1,0 +1,16 @@
+﻿<Window x:Class="cs3280FinalProject.Views.MainView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:cs3280FinalProject.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="MainView">
+
+    <Grid>
+        <Button x:Name="Orders" Content="Orders" HorizontalAlignment="Left" Margin="0,239,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="Inventory" Content="Inventory" HorizontalAlignment="Left" Margin="100,239,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="NewOrders" Content="New Orders" HorizontalAlignment="Left" Margin="192,239,0,0" VerticalAlignment="Top" Width="100"/>
+    </Grid>
+</Window>

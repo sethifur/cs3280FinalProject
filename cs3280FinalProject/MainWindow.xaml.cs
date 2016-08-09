@@ -1,4 +1,6 @@
-﻿using System;
+﻿using cs3280FinalProject.ViewModels;
+using cs3280FinalProject.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,19 +12,20 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Caliburn.Micro;
 
-namespace cs3280FinalProject.Views
+namespace cs3280FinalProject
 {
-    /// <summary>
-    /// Interaction logic for InventoryView.xaml
-    /// </summary>
-    public partial class InventoryView : UserControl
+
+    public partial class MainWindow : Window
     {
-        public InventoryView()
+        public MainWindow()
         {
             InitializeComponent();
+         
+            //frame0.Navigate(new Uri("OrderView.xaml"));
+            //DataContext = new NewOrderViewModel();
         }
     }
 }
